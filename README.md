@@ -8,10 +8,10 @@ This repository contains four series of datasets designed as benchmarks for cont
 
 The benchmark settings included in this repository are as follows:
 
-1. **Infil-8-Target**: This benchmark setting simulates a sequence of eight Infiltration attack events of a target system.
-2. **Dos-10-Target**: This benchmark setting simulates a series of $10$ attack events that solely involve four types of DoS attacks for a target system.
-3. **All-20-Target**: This benchmark setting is explicitly designed for CL studies, aiming to analyze the performance of CL methods when several attack types reappear in later tasks, yet the techniques employed for these attacks significantly differ among the tasks.
-4. **All-10-NonTarget**: This benchmark setting simulates a series of $10$ attack events for a non-target system.
+1. **Target-Infil-8Tasks**: This benchmark setting simulates a sequence of eight Infiltration attack events of a target system.
+2. **Target-Dos-10Tasks**: This benchmark setting simulates a series of $10$ attack events that solely involve four types of DoS attacks for a target system.
+3. **Target-All-20Tasks**: This benchmark setting is explicitly designed for CL studies, aiming to analyze the performance of CL methods when several attack types reappear in later tasks, yet the techniques employed for these attacks significantly differ among the tasks.
+4. **Nontarget-All-10Tasks**: This benchmark setting simulates a series of $10$ attack events for a non-target system.
 
 Each benchmark setting provides unique insights and can be used to build robust and effective continual learning models for cybersecurity applications.
 
